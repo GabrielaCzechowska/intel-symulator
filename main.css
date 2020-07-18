@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+ background-color: lightblue;
+  opacity: 1;
+  color: black;
+  padding: 20px;
+  font-family: 'Inconsolata', monospace;
+   font-size: 17px;
+}
+button,
+select {
+ font-family: 'Inconsolata', monospace;
+  font-weight: 1000;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+fieldset {
+  height: 200px;
+  margin-top: 20px;
+}
+
+#right,
+#left {
+  height: 100%;
+  width: 400px;
+  min-width: 300px;
+}
+
+#left div {
+  margin: 20px;
+}
+#left div input {
+  margin-left: 20px;
+}
+
+#right div {
+  margin: 10px;
+}
+
+#right div select {
+  margin-left: 10px;
+  width: 100px;
+}
+
+#right div span {
+  width: 80px;
+  display: inline-block;
+}
+
+button {
+  margin-top: 25px;
+}
+.
